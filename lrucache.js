@@ -40,3 +40,10 @@ lru.put(4, 4); // evicts key 3
 console.log(lru.get(3));
 console.log(lru.get(4));
 
+
+// output:
+// 1
+// -1
+// 3
+// 4
+
